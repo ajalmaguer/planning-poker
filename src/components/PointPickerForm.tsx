@@ -1,6 +1,7 @@
 import React, { FunctionComponent, useState } from 'react';
 
-const values = ['?', '0', '0.5', '1', '2', '3', '5', '8', '13', '21'];
+// const values = ['?', '0', '0.5', '1', '2', '3', '5', '8', '13', '21'];
+const values = ['-', 'XS', 'S', 'M', 'L', 'XL', '🤷🏽🤷🏻‍♀️'];
 
 export const PointPickerForm: FunctionComponent<{
   onSubmit: (selectedPoints: string) => void;
